@@ -21,7 +21,8 @@ func main() {
 	//外层控制行 内层控制列
 	for i := 1; i <= 9; i++ {
 		for j := 1; j <= i; j++ {
-			fmt.Printf("%d=%d*%d\n", i*j, i, j)
+			fmt.Printf("%d*%d=%d ", j, i, i*j)
 		}
+		fmt.Println()
 	}
 }
