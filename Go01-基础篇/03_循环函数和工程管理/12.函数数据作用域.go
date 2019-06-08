@@ -36,12 +36,22 @@ func main1201() {
 		//此处下面的值输出为0 这个地方是不是可以把for也作一个函数体来理解
 	}
 	fmt.Println(i)
+
+	for ; i < 10; i++ {
+		//此处下面的值输出为 10
+	}
+	fmt.Println(i)
+
+	for ; i <= 10; i++ {
+		//此处下面的值输出为 11
+	}
+	fmt.Println(i)
 }
 
 var a int = 100   //全局变量
 const A int = 200 //全局常量
 
-func main() {
+func main1202() {
 	/*
 		作用域特性：
 			A:采用就近原则使用变量
