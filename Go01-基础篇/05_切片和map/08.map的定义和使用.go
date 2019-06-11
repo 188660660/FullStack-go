@@ -30,7 +30,7 @@ func main050801() {
 	fmt.Println(m)
 }
 
-func main() {
+func main050802() {
 	m := make(map[string]int)
 
 	m["传说"] = 100
