@@ -4,7 +4,7 @@ GIT_AUTHOR_EMAIL='20714428+188660660@users.noreply.github.com';
 GIT_COMMITTER_NAME='188660660';
 GIT_COMMITTER_EMAIL='20714428+188660660@users.noreply.github.com'
 " HEAD
-2
+2啊水水水水水水水水
 git filter-branch -f --env-filter'
 if [ "$GIT_AUTHOR_NAME" = "niequn" ]
 then
