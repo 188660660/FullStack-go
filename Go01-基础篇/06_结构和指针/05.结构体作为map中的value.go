@@ -9,7 +9,7 @@ type stu060501 struct {
 	score int
 }
 
-func main060601() {
+func main060501() {
 
 	//定义map
 	m := make(map[int]stu060501)
@@ -28,7 +28,7 @@ func main060601() {
 	}
 }
 
-func main() {
+func main060502() {
 	m := make(map[int][]stu060501)
 
 	m[1] = append(m[101], stu060501{"曹操", 50, 68})

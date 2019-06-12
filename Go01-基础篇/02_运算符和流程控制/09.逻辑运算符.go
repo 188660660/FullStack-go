@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main0901() {
+func main020901() {
 	/*
 		!总结：
 			逻辑运算符：
@@ -24,7 +24,7 @@ func main0901() {
 	fmt.Println(!a)        //false
 }
 
-func main0902() {
+func main020902() {
 	//逻辑于 && 并且关系 表达式1 && 表达式2 同真为真 其余为假
 	a := 10
 	b := 20
@@ -35,7 +35,7 @@ func main0902() {
 	fmt.Println(a < b && d > c) //true
 }
 
-func main0903() {
+func main020903() {
 	//逻辑或 || 或者关系 表示式1 || 表达式2 同假为假 其余为真
 	a := 10
 	b := 20
@@ -46,7 +46,7 @@ func main0903() {
 	fmt.Println(a < b || c > d) //true
 }
 
-func main0904() {
+func main020904() {
 	//取地址运算符
 	var a int = 10
 	fmt.Println(&a) //0xc000064080 取的是栈区的内存地址
@@ -60,7 +60,7 @@ func main0904() {
 
 //补充 数据类型互换
 //字符串和数字类型互换
-func main0905() {
+func main020905() {
 	num1, num2 := 123, "321"
 	fmt.Println(strconv.Itoa(num1)) //整形转成字符串
 	fmt.Printf("%T", num1)

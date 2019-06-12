@@ -17,7 +17,7 @@ import "fmt"
 			H.逻辑 || &&
 			I.赋值 = += -= *= /= %=
 */
-func main1001() {
+func main021001() {
 	a := 10
 	b := 20
 	c := 30
@@ -30,7 +30,7 @@ func main1001() {
 	fmt.Println(a+b >= c && !(b > c))
 }
 
-func main1002() {
+func main021002() {
 	/*
 		判断闰年小案例
 		闰年的判断条件：

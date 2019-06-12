@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0401() {
+func main040101() {
 	a := 10
 	b := 20
 
@@ -21,7 +21,7 @@ func main0401() {
 	f2()
 }
 
-func main0402() {
+func main040102() {
 	//带返回值的匿名函数
 	a := 10
 	b := 20
@@ -62,7 +62,7 @@ func main0402() {
 	//A和B同为 匿名函数 存疑 B如何使用返回值？写法是怎样的呢？此处存疑
 }
 
-func main0403() {
+func main040103() {
 	//自己练习 再次熟悉
 	a := 10
 	b := 20

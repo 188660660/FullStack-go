@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0401() {
+func main020401() {
 	//iota是什么？ iota常量生成器初始化
 	//iota 会从0 开始 然后在每一个有常量声明的行加一
 	const (

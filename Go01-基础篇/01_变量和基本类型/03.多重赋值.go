@@ -24,6 +24,6 @@ func main0302() {
 
 //匿名变量
 func main0303() {
-	a, b, _, d := 1, 2, 3, 4
-	fmt.Println(a, b)
+	a, b, _, c := 1, 2, 3, 4
+	fmt.Println(a, b, c)
 }

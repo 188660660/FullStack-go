@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main030601() {
 	/*
 		!案例：百钱白鸡
 			cock 公鸡 5钱

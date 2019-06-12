@@ -20,7 +20,7 @@ import "fmt"
 //func main() {
 //	test3(1,2,3,4)
 //}
-func main0901() {
+func main030901() {
 	//test3(1,2,3,4)
 	//test3(5,6,7,8)
 	test4(67, 81)
@@ -34,7 +34,7 @@ func test5(a int, b int) {
 	fmt.Println(sum)
 }
 
-func main0902() {
+func main030902() {
 	//test6(10, 20, 30, 40)
 	test7(10, 20, 30, 40)
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0401() {
+func main030401() {
 	//嵌套循环中  执行次数为外层*内层?
 	for i := 1; i <= 5; i++ {
 		for j := 1; j <= 5; j++ {
@@ -11,7 +11,7 @@ func main0401() {
 	}
 }
 
-func main() {
+func main030402() {
 	/*
 		案例：打印九九乘法口诀
 			1*1=1

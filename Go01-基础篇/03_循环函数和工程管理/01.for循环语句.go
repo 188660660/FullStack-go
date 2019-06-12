@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0101() {
+func main030101() {
 	/*
 		!语法：
 			for  表达式1 ; 表达式2 ; 表达式3{
@@ -39,7 +39,7 @@ func main0101() {
 	fmt.Println(sum)
 }
 
-func main0102() {
+func main030102() {
 	//for循环中变量的作用域
 	/*
 		!注意：

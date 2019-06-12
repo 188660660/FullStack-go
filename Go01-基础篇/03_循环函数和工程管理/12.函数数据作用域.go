@@ -6,7 +6,7 @@ func demo1(a string) {
 	a = "传说中的暴龙兽"
 	fmt.Println(a)
 }
-func main1201() {
+func main031201() {
 	/*
 		A:局部变量： 在函数内部定义的变量 作用域限定于本函数的内部 从变量定义到本函数运行结束时有效
 			注：在同一作用域范围内 变量名范围是唯一的
@@ -51,7 +51,7 @@ func main1201() {
 var a int = 100   //全局变量
 const A int = 200 //全局常量
 
-func main1202() {
+func main031202() {
 	/*
 		作用域特性：
 			A:采用就近原则使用变量

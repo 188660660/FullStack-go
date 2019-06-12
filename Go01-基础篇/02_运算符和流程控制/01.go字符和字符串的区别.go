@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0101() {
+func main020101() {
 	//var a byte = 'a'
 	//var b string = "a"
 	var c string = "as\\asas\nas\077asdas"
@@ -12,7 +12,7 @@ func main0101() {
 	//fmt.Println(a==b) 不同的类型进行比较运算时会报类型不符的错误
 }
 
-func main0102() {
+func main020102() {
 	var str1 string = "hello world"
 	//在go语言中一个汉字算作3个字符 是为了和Linux统一处理
 	var str2 string = "新中国zh"
@@ -25,7 +25,7 @@ func main0102() {
 	fmt.Println(num2)
 }
 
-func main0103() {
+func main020103() {
 	//字符串不只可以使用双引号表述 还可以进行反引号换行书写
 	var a string = `阿萨
 莎莎`

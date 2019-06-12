@@ -30,7 +30,7 @@ func main050101() {
 }
 
 //随机一注双色球彩票信息 红球6个 1-33 不能重复
-func main() {
+func main050102() {
 	//获取随机数种子
 	rand.Seed(time.Now().UnixNano())
 

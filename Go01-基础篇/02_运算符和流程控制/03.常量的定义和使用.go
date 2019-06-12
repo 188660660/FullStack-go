@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0301() {
+func main020301() {
 	//常量的定义和使用
 	//在程序运行过程中 其值不能发生改变的量 称为常量
 	//变量存储在栈区 而常量一在内存中的数据区
@@ -22,7 +22,7 @@ func main0301() {
 	fmt.Println(a)
 }
 
-func main0302() {
+func main020302() {
 	//常量一般用于大写字母表示
 	const MAX = 999
 	b := 20

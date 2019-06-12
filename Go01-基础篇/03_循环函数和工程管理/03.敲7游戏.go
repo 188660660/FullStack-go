@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0301() {
+func main030301() {
 	/*
 		敲7游戏规则：
 			1. 1-100  逢7 7的倍数 含有7的（17 27 72 73 74）敲桌子

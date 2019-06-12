@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0701() {
+func main020701() {
 	a := 10
 	b := 10
 	//a = a + 5

@@ -32,7 +32,7 @@ type FUNCTYPE func()
 type FUNCTEST func(int, int)
 type funcdemo func(int, int) int
 
-func main1101() {
+func main031101() {
 	//定义函数类型和变量
 	var f FUNCTYPE
 	f = test10
@@ -59,7 +59,7 @@ func main1101() {
 func test14(a int, b int) {
 	fmt.Println(a + b)
 }
-func main() {
+func main031102() {
 	//函数调用
 	test14(25, 30)
 

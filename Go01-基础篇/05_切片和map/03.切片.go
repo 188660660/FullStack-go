@@ -84,7 +84,7 @@ func main050303() {
 	fmt.Println("容量：", cap(s)) //20
 }
 
-func main() {
+func main050304() {
 	//定义一个切片
 	s1 := make([]int, 5)
 	var s2 []int

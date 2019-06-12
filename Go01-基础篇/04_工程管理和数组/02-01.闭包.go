@@ -7,7 +7,7 @@ func test1(a int) {
 	fmt.Println(a)
 }
 
-func main0201() {
+func main040201_1() {
 	/*
 		!总结： 什么是闭包？
 	*/
@@ -28,7 +28,7 @@ func test2() func() int {
 	}
 }
 
-func main0202() {
+func main040202_1() {
 	////将test2函数类型赋值给f
 	//f := test2
 	f := test2() //函数调用 将test2的返回值赋值给test2

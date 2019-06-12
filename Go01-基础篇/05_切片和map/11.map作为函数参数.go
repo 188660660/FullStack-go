@@ -12,7 +12,7 @@ func demo(m map[int]string) {
 	delete(m, 101)
 	fmt.Println(m) //map[102:猪八戒 103:沙和尚]
 }
-func main() {
+func main051101() {
 	m := make(map[int]string, 1)
 	m[101] = "孙悟空"
 

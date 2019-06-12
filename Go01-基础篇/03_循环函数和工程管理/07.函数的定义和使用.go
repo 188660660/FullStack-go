@@ -18,14 +18,14 @@ func test1(a int, b int) {
 	fmt.Println(sum)
 }
 
-func main0701() {
+func main030701() {
 	a := 10
 	b := 20
 	test1(a, b)
 	test1(35, 82)
 }
 
-func main0702() {
+func main030702() {
 	/*
 		!重点：形参和实参是不同的存储单元 在函数的调用过程中 不会互相产生影响
 		函数的调用使用的是实参 函数的定义中使用的是形参

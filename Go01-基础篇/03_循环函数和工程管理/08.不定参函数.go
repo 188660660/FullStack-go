@@ -19,7 +19,7 @@ func plus(add ...int) {
 	*/
 	fmt.Println(sum)
 }
-func main0801() {
+func main030801() {
 	test3(25, 67)
 	test3(89, 71)
 	//plus(1, 2, 3)

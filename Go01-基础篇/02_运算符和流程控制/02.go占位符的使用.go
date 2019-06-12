@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0201() {
+func main020201() {
 	//var a int64 = 10
 	a := 10 //int
 	fmt.Printf("%d\n", a)
@@ -37,7 +37,7 @@ func main0201() {
 	fmt.Printf("35%%")
 }
 
-func main0202() {
+func main020202() {
 	/*问题：计算机都能够识别哪些进制？
 	答：二进制 八进制 十进制 十六进制
 	*/

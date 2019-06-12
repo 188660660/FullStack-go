@@ -32,7 +32,7 @@ func sub3(a int, b int) int {
 	return 111
 }
 
-func main1001() {
+func main031001() {
 	var value1, value2, value3 int
 
 	value1 = sub1(10, 20)
@@ -45,7 +45,7 @@ func main1001() {
 }
 
 //函数返回多个值
-func main1002() {
+func main031002() {
 	//多重赋值
 	a, b, c := test9()
 

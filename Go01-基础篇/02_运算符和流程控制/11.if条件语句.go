@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main1101() {
+func main021101() {
 	var score int
 	fmt.Scan(&score)
 	/*
@@ -22,7 +22,7 @@ func main1101() {
 	}
 }
 
-func main1102() {
+func main021102() {
 	/*if语句嵌套
 	if else if
 	else 配对和if 一起使用  选择同级别下的if进行配对使用
@@ -49,7 +49,7 @@ func main1102() {
 	}
 }
 
-func main1103() {
+func main021103() {
 	a := 10
 	if a > 5 {
 		fmt.Println(a)
@@ -63,7 +63,7 @@ func main1103() {
 	}
 }
 
-func main1104() {
+func main021104() {
 	//小案例：比较三个数的大小
 	var a, b, c int
 	fmt.Scan(&a, &b, &c)

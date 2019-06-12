@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0801() {
+func main020801() {
 	//比较运算符又作关系运算符 返回值为布尔型数据
 	a := 10
 	b := 20

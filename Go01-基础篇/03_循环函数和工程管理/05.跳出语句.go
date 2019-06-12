@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0501() {
+func main030501() {
 	//break 跳出循环 在嵌套循环中 跳出本层循环
 	for i := 0; i <= 10; i++ {
 		if i == 2 {

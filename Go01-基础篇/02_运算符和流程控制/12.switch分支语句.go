@@ -10,7 +10,7 @@ import "fmt"
 		1.switch 选择项可以是一个整型变量
 		2.swich中的值不能是浮点型数据 浮点型数据是一个约等于的数据
 */
-func main1201() {
+func main021201() {
 	var w int
 	fmt.Scan(&w)
 
@@ -34,7 +34,7 @@ func main1201() {
 	}
 }
 
-func main1202() {
+func main021202() {
 	//switch判断成绩是否合格
 	fmt.Println("请输入查询成绩！")
 	var score int
@@ -47,7 +47,7 @@ func main1202() {
 	}
 }
 
-func main1203() {
+func main021203() {
 	var score int
 	fmt.Println("请输入考试成绩！")
 	fmt.Scan(&score)

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0601() {
+func main020601() {
 	a := 10
 	b := 2.5
 	//将不同的数据类型 转成相同的数据类型再进行操作
@@ -16,7 +16,7 @@ func main0601() {
 	*/
 }
 
-func main0602() {
+func main020602() {
 	var a int32 = 10
 	var b int64 = 20
 	//c := a * b
@@ -30,7 +30,7 @@ func main0602() {
 	*/
 }
 
-func main0603() {
+func main020603() {
 	//小案例 A
 	//编程实现107653秒是几天几小时几分钟几秒?
 	time := 107653

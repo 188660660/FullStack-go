@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0501() {
+func main020501() {
 	//除法运算符
 	a := 10
 	b := 0 //报错
@@ -15,7 +15,7 @@ func main0501() {
 	*/
 }
 
-func main0502() {
+func main020502() {
 	//取余运算符 也叫做取模运算符
 	a := 10
 	b := 20
@@ -29,7 +29,7 @@ func main0502() {
 	*/
 }
 
-func main0503() {
+func main020503() {
 	//自增自减运算符
 	a := 10
 	a = a + 1

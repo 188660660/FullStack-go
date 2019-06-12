@@ -36,7 +36,7 @@ func main0603() {
 	fmt.Printf("%v=%v", a, b)
 }
 
-func main() {
+func main0604() {
 	//字符串数据类型
 	var a string = "夏天"
 	var b string = "炎热"

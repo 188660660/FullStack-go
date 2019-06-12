@@ -12,7 +12,7 @@ import (
 	time.Now().UnixNano() //即从时间点January1,1970 UTC 到时间点t所经过的时间（单位纳秒）。
 	time.Now().Nanosecond() //返回对应的那一秒内的纳秒偏移量，范围[0,999999999]。
 */
-func main111() {
+func main040901() {
 	//1.导入头文件 math/rand time
 	//2.添加随机数种子
 	//3.使用随机数

@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func main050701() {
 	//创建随机数种子
 	rand.Seed(time.Now().UnixNano())
 	//生成100-999的随机数

@@ -15,7 +15,7 @@ func main040701() {
 	}
 	fmt.Println(arr)
 }
-func main() {
+func main040702() {
 	//go语言中的冒泡排序
 	arr := [10]int{100, 99, 66, 77, 55, 33, 110, 25, 67, 89}
 	for i := 0; i < len(arr)-1; i++ {

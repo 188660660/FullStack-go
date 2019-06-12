@@ -12,7 +12,7 @@ type Student struct {
 	addr  string
 }
 
-func main060501() {
+func main060401() {
 	//var 结构体变量名 结构体类型
 
 	/*
@@ -60,7 +60,7 @@ func main060501() {
 	}
 }
 
-func main060502() {
+func main060402() {
 	//[元素个数]数组 []切片len
 	arr := []Student{ //写中括号的值就是结构体数组 不谢的话就是数组
 		{101, "曹操", "男", 58, 90, "许昌"},

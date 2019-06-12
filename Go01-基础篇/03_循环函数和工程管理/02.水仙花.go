@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main0202() {
+func main030202() {
 	/*
 		水仙花案例：
 			水仙花 一个三位数 100-999

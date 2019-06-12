@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main020201() {
+func main040201_2() {
 	/*
 		1.闭包是函数中的匿名函数
 		2.形成闭包的条件必须内部函数要返回出来
@@ -21,7 +21,7 @@ func fun1() func() {
 }
 
 //再次练习
-func main020202() {
+func main040202_2() {
 	f := fun2()
 	f()
 }
@@ -34,7 +34,7 @@ func fun2() func() {
 	return fun
 }
 
-func main020203() {
+func main040203_2() {
 	fmt.Println(fun3()) //1
 	fmt.Println(fun3()) //1
 	fmt.Println(fun3()) //1
@@ -48,7 +48,7 @@ func fun3() int {
 	return x * x
 }
 
-func main020204() {
+func main040204_2() {
 	fmt.Println(fun4()) //1
 	fmt.Println(fun4()) //1
 	fmt.Println(fun4()) //1
@@ -78,7 +78,7 @@ func fun4() func() int {
 	//闭包每次指向的内存空间都是一样的
 }
 
-func main020205() {
+func main040205_2() {
 	var fn [3]func() //函数数组
 	for i := 0; i < 3; i++ {
 		fn[i] = func() {

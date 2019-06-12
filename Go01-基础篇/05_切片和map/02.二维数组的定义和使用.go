@@ -37,7 +37,7 @@ func main050201() {
 	}
 }
 
-func main() {
+func main050202() {
 	var arr [3][4]int
 	//len(二维数组名)：获取到的是arr函数
 	fmt.Println(len(arr))

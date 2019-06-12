@@ -20,7 +20,7 @@ func main0401() {
 }
 
 //golang的数据占位符
-func main() {
+func main0402() {
 	//a := 10
 	//b := 3.1415926
 	//fmt.Println("%d",a)
