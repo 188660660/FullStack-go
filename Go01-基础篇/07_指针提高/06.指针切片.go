@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main070601() {
 	//指针切片
 	var slice []*int
 	a := 10
