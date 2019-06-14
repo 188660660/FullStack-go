@@ -1,5 +1,5 @@
 package main
 
-func main() {
-	n
+func main12() {
+
 }
