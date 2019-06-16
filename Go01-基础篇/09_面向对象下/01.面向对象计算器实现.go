@@ -32,7 +32,7 @@ func (sub *Sub) SubOperate(a int, b int) int {
 	return sub.num1 - sub.num2
 }
 
-func main090101() {
+func main() {
 	var s Sub
 	value := s.SubOperate(10, 20)
 	fmt.Println(value)
