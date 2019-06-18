@@ -58,3 +58,20 @@ func main100402() {
 	fmt.Scan(&age)
 	fun100401(age)
 }
+
+func test100401(num int) (value int) {
+	value = 10 / num
+	return
+}
+
+//写一个recove接口的案例
+func main100403() {
+	defer func() {
+		err := recover()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}()
+
+	test100401(0)
+}
