@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main100601() {
+func main10060101() {
 	//os.create创建文件时 如果文件不存在 会直接创建一个新文件 如果文件已存在 则会将其覆盖掉
 	fp, err := os.Create("E:\\Go_WorkSpace\\FullStack-go\\Go01-基础篇\\10_异常处理和文件读写\\test.txt")
 	if err != nil {
@@ -27,7 +27,7 @@ func main100601() {
 	fmt.Println("文件创建成功！")
 }
 
-func main100602() {
+func main10060102() {
 	//创建文件
 	fp, err := os.Create("E:\\Go_WorkSpace\\FullStack-go\\Go01-基础篇\\10_异常处理和文件读写\\test2.txt")
 	if err != nil {
@@ -49,7 +49,7 @@ func main100602() {
 	_, _ = fp.Write(b)
 }
 
-func main100603() {
+func main10060103() {
 	/*
 		打开文件
 			os.open(文件名) 只读方式打开
