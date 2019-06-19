@@ -1,4 +1,4 @@
-package _2_文件操作
+package main
 
 import (
 	"fmt"
