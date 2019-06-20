@@ -33,11 +33,11 @@ func main130301() {
 	      Parse 系列函数把字符串转换为其他类型
 	      	(2)Parse:英文单词解析的意思
 	   		1.字符串转布尔类型
-	      			语法：
+	   			语法：
 	      				strconv.ParseBool("数据")
 
 	      		2.字符串转整形
-	      			语法A：常用推荐
+	   			语法A：常用推荐
 	      				strconv.Atoi("666")
 	      					输出： 666 int类型
 
@@ -57,17 +57,17 @@ func main130301() {
 	      Append 系列函数将整数等转换为字符串后，添加到现有的字节数组中。
 	      	(3)Append:英文单词附加的意思
 	      		1.将布尔类型转成字符串追加到数组
-	      			语法：
+	   			语法：
 	      				strconv.AppendBool(追加的数组,追加的bool)
 
 	   		2.将Int类型转成字符串追加到数组
-	   		语法：
-	   			strconv.AppendInt(追加的数组,追加数,指定追加的进制)
-	      			示例：strconv.AppendInt(slice,123,10)
+	   			语法：
+	   				strconv.AppendInt(追加的数组,追加数,指定追加的进制)
+	   				示例：strconv.AppendInt(slice,123,10)
 
 	      		2.将字符串转换为带引号的字符串文字。
-	      		语法：
-	      			strconv.AppendQuote(追加的数组,"字符串")
+	   			语法：
+	      				strconv.AppendQuote(追加的数组,"字符串")
 	         			示例：strconv.AppendQuote(slice,"你好啊")
 	*/
 }
