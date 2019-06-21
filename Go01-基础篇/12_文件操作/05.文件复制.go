@@ -15,7 +15,7 @@ import (
 */
 const path1206 = "E:\\Go_WorkSpace\\FullStack-go\\Go01-基础篇\\12_文件操作\\"
 
-func main120601() {
+func main120501() {
 	fp1, err1 := os.Open(path1206 + "20714428.jpg")
 	fp2, err2 := os.Create(path1206 + "20714429.jpg")
 	defer fp1.Close()
@@ -36,7 +36,7 @@ func main120601() {
 }
 
 //练习
-func main120602() {
+func main120502() {
 	fp1, err1 := os.Open(path1206 + "20714428.jpg")
 	fp2, err2 := os.Create(path1206 + "207144299.jpg")
 	defer func() {
@@ -62,7 +62,7 @@ func main120602() {
 	}
 }
 
-func main120603() {
+func main120503() {
 	fp1, err1 := os.Open(path1206 + "20714428.jpg")
 	fp2, err2 := os.Create(path1206 + "111.jpg")
 
@@ -89,7 +89,7 @@ func main120603() {
 	}
 }
 
-func main120604() {
+func main120504() {
 	fp1, err1 := os.Open(path1206 + "20714428.jpg")
 	fp2, err2 := os.Create(path1206 + "999.jpg")
 	defer fp1.Close()

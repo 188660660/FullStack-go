@@ -103,3 +103,19 @@ func main100305() {
 	a, b = 100, 200
 	fmt.Println("main函数：", a, b) //100,200
 }
+
+func main100306() {
+	//测试
+	//fmt.Println("A")
+	//defer fmt.Println("B")
+	//defer fmt.Println("C")
+	//fmt.Println("D")
+
+	fmt.Println("A")
+	defer func() {
+		fmt.Println("B")
+		fmt.Println(1)
+		fmt.Println("C")
+	}()
+	fmt.Println("D")
+}
