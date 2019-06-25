@@ -13,7 +13,7 @@ func test0801(arr [3]int) {
 func main040801() {
 	//指定数组下标进行初始化操作
 	//第一种常规方式
-	var arr1 [3]int = [3]int{1, 2, 3}
+	var arr1 = [3]int{1, 2, 3}
 	//第二种推导方式
 	//arr2 := [3]int{3,2,1}
 

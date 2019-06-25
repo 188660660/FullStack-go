@@ -48,7 +48,7 @@ func main031201() {
 	fmt.Println(i)
 }
 
-var a int = 100   //全局变量
+var a = 100       //全局变量
 const A int = 200 //全局常量
 
 func main031202() {

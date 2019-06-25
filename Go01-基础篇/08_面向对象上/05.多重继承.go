@@ -19,7 +19,7 @@ type test090503 struct {
 }
 
 func main080501() {
-	var stu test090503 = test090503{test090501{1, "王者"}, test090502{18, "男"}, 888}
+	var stu = test090503{test090501{1, "王者"}, test090502{18, "男"}, 888}
 
 	stu.id = 117
 	stu.name = "宗师"

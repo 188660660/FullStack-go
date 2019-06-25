@@ -21,8 +21,8 @@ func (p *person081001) SayHello081001() {
 }
 
 func main081001() {
-	var stu student081001 = student081001{person081001{1, "铸星龙王", 18, "男"}, 600}
-	var p person081001 = person081001{2, "黑暗暴君", 36, "男"}
+	var stu = student081001{person081001{1, "铸星龙王", 18, "男"}, 600}
+	var p = person081001{2, "黑暗暴君", 36, "男"}
 
 	//★ 父类不能继承子类信息
 	p.SayHello081001()

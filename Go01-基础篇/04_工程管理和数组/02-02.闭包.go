@@ -13,7 +13,7 @@ func main040201_2() {
 }
 
 func fun1() func() {
-	var add string = "上海"
+	var add = "上海"
 	fun2 := func() { //匿名函数就是闭包
 		fmt.Println(add)
 	}
@@ -69,7 +69,7 @@ func fun4() func() int {
 	//	return x * x
 	//}
 
-	var x int = 0
+	var x = 0
 	return func() int {
 		x++
 		return x * x

@@ -48,7 +48,7 @@ func main020903() {
 
 func main020904() {
 	//取地址运算符
-	var a int = 10
+	var a = 10
 	fmt.Println(&a) //0xc000064080 取的是栈区的内存地址
 
 	b := 10

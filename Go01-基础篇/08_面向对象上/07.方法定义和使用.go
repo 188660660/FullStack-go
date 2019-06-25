@@ -24,7 +24,7 @@ func (a *stu080701) editinfo(name string, age int, sex string) {
 }
 
 func main080701() {
-	var s stu080701 = stu080701{"小明", 14, "男"}
+	var s = stu080701{"小明", 14, "男"}
 	fmt.Println(s)
 
 	//对象.方法

@@ -4,7 +4,7 @@ import "fmt"
 
 func main070101() {
 
-	var arr [5]int = [5]int{1, 2, 3, 4, 5}
+	var arr = [5]int{1, 2, 3, 4, 5}
 
 	fmt.Printf("%p\n", &arr)    //0xc00000c300
 	fmt.Printf("%p\n", &arr[0]) //0xc00000c300
@@ -29,7 +29,7 @@ func main070101() {
 }
 
 func main070102() {
-	var arr [5]int = [5]int{1, 2, 3, 4, 5}
+	var arr = [5]int{1, 2, 3, 4, 5}
 	//指向数组的指针
 	//p := &arr //*[5]int
 

@@ -46,10 +46,10 @@ type Factory struct {
 func (cal *Factory) Factory(num1 int, num2 int, param string) (value int) {
 	switch param {
 	case "+": //如果为+ 执行加法运算操作
-		var value Sum = Sum{Base{num1, num2}} //创建对象
+		var value = Sum{Base{num1, num2}} //创建对象
 		value = Sum.Calculation()
 	case "-": //如果为- 执行减法操作
-		var value Sub = Sub{Base{num1, num2}}
+		var value = Sub{Base{num1, num2}}
 		value = Sub.Calculation()
 	}
 	return

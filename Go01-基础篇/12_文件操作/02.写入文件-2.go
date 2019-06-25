@@ -66,7 +66,7 @@ func main10020203() {
 		fmt.Println(err)
 		return
 	}
-	var b []byte = []byte{1, 2, 3}   //字符型切片 占位符%c
+	var b = []byte{1, 2, 3}          //字符型切片 占位符%c
 	n, _ := f.Write(b)               //中文返回3个字节
 	_, _ = f.Write([]byte("\t日历圆上")) //将字符串转换成字符型写入
 	fmt.Println(n)

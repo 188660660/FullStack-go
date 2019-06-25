@@ -38,8 +38,8 @@ func main0603() {
 
 func main0604() {
 	//字符串数据类型
-	var a string = "夏天"
-	var b string = "炎热"
+	var a = "夏天"
+	var b = "炎热"
 	c := a + b
 	fmt.Println(a + b)
 	fmt.Printf("%s\n", c)

@@ -29,7 +29,7 @@ func main040301() {
 	test0402(10)
 }
 
-var sum1 int = 1 //0*任何数都等于0 因此从1开始相乘
+var sum1 = 1 //0*任何数都等于0 因此从1开始相乘
 
 func test0403(n int) {
 	//计算n的阶乘 n=1×2×3×...×n
@@ -46,8 +46,8 @@ func main040302() {
 }
 
 //再写一遍
-var count int = 0
-var sum2 int = 1 //0*任何数都等于0 因此从1开始相乘
+var count = 0
+var sum2 = 1 //0*任何数都等于0 因此从1开始相乘
 func test0404(n int) {
 	if n == 1 {
 		return
@@ -85,7 +85,7 @@ func test0405_2(n int, e int) {
 	e++
 }
 
-var sum int = 0
+var sum = 0
 
 func test0406_1(num int) {
 	if num == 0 {

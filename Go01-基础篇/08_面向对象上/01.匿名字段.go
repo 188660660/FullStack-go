@@ -17,7 +17,7 @@ type student0801 struct {
 }
 
 func main080101() {
-	var stu student0801 = student0801{person0801{"小白", "男", 45}, 102, 666}
+	var stu = student0801{person0801{"小白", "男", 45}, 102, 666}
 
 	//定义结构体成员信息
 	stu.name = "李白"

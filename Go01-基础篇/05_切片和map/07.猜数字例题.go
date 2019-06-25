@@ -19,7 +19,7 @@ func main050701() {
 	usernum := make([]int, 3)
 
 	var num int
-	var flag int = 0
+	var flag = 0
 	for { //结束条件在里面
 		for {
 			fmt.Println("请输入一个三位数")

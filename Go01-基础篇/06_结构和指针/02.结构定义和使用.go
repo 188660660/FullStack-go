@@ -31,7 +31,7 @@ func main060201() {
 	fmt.Printf("%T\n", s1) //main.Student
 
 	//两种结构体的定义方式
-	var s2 Student060201 = Student060201{101, "赵四", "女", 180, "华夏大区"}
+	var s2 = Student060201{101, "赵四", "女", 180, "华夏大区"}
 	//s := Student060201{101,"赵四","女",180,"华夏大区"}
 
 	fmt.Println(s2.id)

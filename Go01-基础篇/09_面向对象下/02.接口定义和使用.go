@@ -46,8 +46,8 @@ func (t *teacher090201) SayHello090201() {
 }
 
 func main090201() {
-	var stu student090201 = student090201{person090201{"陈浩南", "男", 18}, 23}
-	var tea teacher090201 = teacher090201{person090201{"杨永信", "男", 48}, "电磁学"}
+	var stu = student090201{person090201{"陈浩南", "男", 18}, 23}
+	var tea = teacher090201{person090201{"杨永信", "男", 48}, "电磁学"}
 	/*
 		定义接口类型
 			1.接口做了统一的处理 先实现接口 在根据接口实现对应的方法

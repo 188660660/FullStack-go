@@ -5,7 +5,7 @@ import "fmt"
 func main020101() {
 	//var a byte = 'a'
 	//var b string = "a"
-	var c string = "as\\asas\nas\077asdas"
+	var c = "as\\asas\nas\077asdas"
 	//%s 遇到\0停止 但自己测试的时候遇到\0并未出现停止
 	fmt.Println(c)
 	fmt.Printf("%s", c)
@@ -13,9 +13,9 @@ func main020101() {
 }
 
 func main020102() {
-	var str1 string = "hello world"
+	var str1 = "hello world"
 	//在go语言中一个汉字算作3个字符 是为了和Linux统一处理
-	var str2 string = "新中国zh"
+	var str2 = "新中国zh"
 
 	num1 := len(str1)
 	num2 := len(str2)
@@ -27,7 +27,7 @@ func main020102() {
 
 func main020103() {
 	//字符串不只可以使用双引号表述 还可以进行反引号换行书写
-	var a string = `阿萨
+	var a = `阿萨
 莎莎`
 	fmt.Println(a)
 }

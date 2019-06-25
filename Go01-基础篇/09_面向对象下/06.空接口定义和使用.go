@@ -35,7 +35,7 @@ func main090602() {
 	fmt.Println(i)         //hello world
 	fmt.Printf("%p\n", &i) //0xc0000441d0
 
-	var arr [3]int = [3]int{1, 2, 3}
+	var arr = [3]int{1, 2, 3}
 	i = arr
 	fmt.Println(i)         //[1 2 3]
 	fmt.Printf("%p\n", &i) //0xc0000501c0

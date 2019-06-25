@@ -10,7 +10,7 @@ import "fmt"
 
 */
 func main060901() {
-	var a int = 123
+	var a = 123
 
 	//定义整形指针变量 指向a的地址
 	/*

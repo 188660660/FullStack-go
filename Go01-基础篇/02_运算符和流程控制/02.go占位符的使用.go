@@ -12,11 +12,11 @@ func main020201() {
 	fmt.Printf("%f\n", b)
 	fmt.Printf("%T\n", b)
 
-	var c bool = true //布尔值默认为false
+	var c = true //布尔值默认为false
 	fmt.Printf("%t\n", c)
 	fmt.Printf("%T\n", c)
 
-	var d1 string = "张三丰"
+	var d1 = "张三丰"
 	d2 := "asas"
 	fmt.Printf("%s\n", d1)
 	fmt.Printf("%s\n", d2)

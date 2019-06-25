@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main070201() {
-	var slice []int = []int{1, 2, 3, 4, 5}
+	var slice = []int{1, 2, 3, 4, 5}
 
 	//p := &slice //*[]int
 
@@ -19,7 +19,7 @@ func main070201() {
 }
 
 func main070202() {
-	var slice []int = []int{1, 2, 3, 4, 5}
+	var slice = []int{1, 2, 3, 4, 5}
 
 	fmt.Printf("%p\n", slice) //0xc00008e030
 

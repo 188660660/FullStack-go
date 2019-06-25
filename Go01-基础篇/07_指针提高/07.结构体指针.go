@@ -19,7 +19,7 @@ func main070701() {
 		}
 		结构体变量.成员 = 值
 	*/
-	var stu student070701 = student070701{
+	var stu = student070701{
 		id: 101, name: "多啦A梦",
 		age: 100, sex: "男",
 	}
@@ -47,7 +47,7 @@ func main070701() {
 }
 
 func main070702() {
-	var stu student070701 = student070701{
+	var stu = student070701{
 		id: 101, name: "多啦A梦",
 		age: 100, sex: "男",
 	}
@@ -67,7 +67,7 @@ func main070702() {
 
 func main070703() {
 	//结构体切片
-	var stu []student070701 = make([]student070701, 3)
+	var stu = make([]student070701, 3)
 
 	p := &stu //*[]student070701 结构体切片指针
 

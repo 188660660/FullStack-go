@@ -14,8 +14,8 @@ func main0202() {
 	//计算圆的面积和周长
 	//面积 PI * r * r
 	//周长 2 * PI * r
-	var PI float64 = 3.1415926
-	var r float64 = 2.5
+	var PI = 3.1415926
+	var r = 2.5
 	var s float64
 	var l float64
 	//计算面积

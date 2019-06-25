@@ -40,8 +40,8 @@ func (d Dep) SayHi() {
 }
 
 func main081101() {
-	var r Rep = Rep{person081101{"卓伟", 38, "男", "狗仔"}, "偷拍"}
-	var d Dep = Dep{person081101{"马化腾", 44, "男", "程序员"}, 3}
+	var r = Rep{person081101{"卓伟", 38, "男", "狗仔"}, "偷拍"}
+	var d = Dep{person081101{"马化腾", 44, "男", "程序员"}, 3}
 
 	r.SayHi()
 	d.SayHi()

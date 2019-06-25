@@ -12,7 +12,7 @@ type Student1506 struct {
 }
 
 func main1506() {
-	var stu Student1506 = Student1506{"小李", "男", 88}
+	var stu = Student1506{"小李", "男", 88}
 	t := reflect.TypeOf(stu)  // 反射对象的类型
 	v := reflect.ValueOf(stu) // 反射对象的值
 	fmt.Println(t)            // main.Student1506
