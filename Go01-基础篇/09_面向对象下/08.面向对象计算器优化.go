@@ -45,7 +45,7 @@ type Factory struct {
 //实现计算方法
 func (cal *Factory) Factory(num1 int, num2 int, param string) (value int) {
 	switch param {
-	case "+": //如果为+ 执行加法运算操作
+	case "+":                             //如果为+ 执行加法运算操作
 		var value = Sum{Base{num1, num2}} //创建对象
 		value = Sum.Calculation()
 	case "-": //如果为- 执行减法操作

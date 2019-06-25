@@ -12,8 +12,8 @@ type person0801 struct {
 type student0801 struct {
 	//通过匿名字段实现继承操作
 	person0801 //结构体名称作为结构体成员
-	id         int
-	score      int
+	id    int
+	score int
 }
 
 func main080101() {

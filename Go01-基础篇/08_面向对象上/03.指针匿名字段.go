@@ -10,8 +10,8 @@ type person0803 struct {
 
 type student0803 struct {
 	*person0803 //指针匿名字段
-	id          int
-	score       int
+	id    int
+	score int
 }
 
 func main080301() {
