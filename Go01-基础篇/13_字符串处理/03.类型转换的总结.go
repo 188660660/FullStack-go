@@ -6,7 +6,7 @@ func main130301() {
 	   	(1)Format:英文单词格式的意思
 	   		1.布尔型转字符串
 	   			语法：
-	   				strconv.FormatBool(数据)
+	   				.FormatBool(数据)
 
 	   		2.整形型转字符串
 	   			语法A：常用推荐
@@ -14,7 +14,7 @@ func main130301() {
 	   					输出： "666" string类型
 
 	   			语法B：
-	   				strconv.FormatInt(数据,任意进制>=2)
+	   				strconv.FormatIstrconvnt(数据,任意进制>=2)
 
 
 	   		3.浮点型型转字符串
