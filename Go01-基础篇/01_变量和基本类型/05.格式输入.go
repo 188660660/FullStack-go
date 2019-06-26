@@ -46,7 +46,7 @@ func main0504() {
 	var a int
 	var b string
 	fmt.Scanf("%3d", &a)
-	fmt.Scanf("%s", &b)
+	_, _ = fmt.Scanf("%s", &b)
 	fmt.Println(a, b)
 	//！标记 这个地方明天再熟悉一下
 }

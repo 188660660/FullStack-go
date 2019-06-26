@@ -1,10 +1,9 @@
 package type_test
 
 import "testing"
-
 type MyInt int64
 
-func TestImplicit(t *testing.T) {
+func TestCh301(t *testing.T)  {
 	var a int32 = 1
 	var b int64
 	b = int64(a)

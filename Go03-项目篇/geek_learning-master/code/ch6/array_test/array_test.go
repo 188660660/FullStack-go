@@ -7,8 +7,8 @@ func TestArrayInit(t *testing.T) {
 	arr1 := [4]int{1, 2, 3, 4}
 	arr3 := [...]int{1, 3, 4, 5}
 	arr1[1] = 5
-	t.Log(arr[1], arr[2])
-	t.Log(arr1, arr3)
+	t.Log(arr[1], arr[2]) //0 0
+	t.Log(arr1, arr3) //1 5 3 4
 }
 
 func TestArrayTravel(t *testing.T) {
@@ -16,13 +16,13 @@ func TestArrayTravel(t *testing.T) {
 	for i := 0; i < len(arr3); i++ {
 		t.Log(arr3[i])
 	}
-	for _, e := range arr3 {
-		t.Log(e)
+	for i, e := range arr3 {
+		t.Log(e,i)
 	}
 }
 
 func TestArraySection(t *testing.T) {
 	arr3 := [...]int{1, 2, 3, 4, 5}
-	arr3_sec := arr3[:]
+	arr3_sec := arr3[1:4]
 	t.Log(arr3_sec)
 }

@@ -5,7 +5,7 @@ import "testing"
 func TestWhileLoop(t *testing.T) {
 	n := 0
 	for n < 5 {
-		t.Log(n)
+		t.Log(n) //0 1 2 3 4
 		n++
 	}
 }

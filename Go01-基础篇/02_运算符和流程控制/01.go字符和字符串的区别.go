@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main020101() {
+func main() {
 	//var a byte = 'a'
 	//var b string = "a"
 	var c = "as\\asas\nas\077asdas"

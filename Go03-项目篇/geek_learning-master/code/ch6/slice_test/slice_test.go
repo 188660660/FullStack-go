@@ -4,6 +4,7 @@ import "testing"
 
 func TestSliceInit(t *testing.T) {
 	var s0 []int
+	t.Log(s0)
 	t.Log(len(s0), cap(s0))
 	s0 = append(s0, 1)
 	t.Log(len(s0), cap(s0))
@@ -30,10 +31,10 @@ func TestSliceGrowing(t *testing.T) {
 func TestSliceShareMemory(t *testing.T) {
 	year := []string{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
 		"Oct", "Nov", "Dec"}
-	Q2 := year[3:6]
-	t.Log(Q2, len(Q2), cap(Q2))
-	summer := year[5:8]
-	t.Log(summer, len(summer), cap(summer))
+	Q2 := year[3:6] //"Apr", "May", "Jun"
+	t.Log(Q2, len(Q2), cap(Q2)) //3 9
+	summer := year[5:8] //"Jun", "Jul", "Aug"
+	t.Log(summer, len(summer), cap(summer)) //3 7
 	summer[0] = "Unknow"
 	t.Log(Q2)
 	t.Log(year)

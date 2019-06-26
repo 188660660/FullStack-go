@@ -70,6 +70,6 @@ func main020202() {
 	fmt.Printf("%X\n", c)
 	//%x和%X的区别：大写和小写的区别
 
-	s := ' '
+	s := ' ' //字节型的默认值为int32
 	fmt.Printf("%T", s)
 }
