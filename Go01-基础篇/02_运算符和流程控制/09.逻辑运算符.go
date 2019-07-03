@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"strconv"
+	"time"
 )
 
 func main020901() {
@@ -73,4 +75,32 @@ func main020905() {
 		fmt.Println("转换错误", err)
 	}
 	//nil是预定义的标识符，代表变量的零值，也就是预定义好的一个变量。类似于null
+}
+
+func main() {
+	a, b := 25, 75 // 101   1101 1010 1011 1 2 4 8 -8+2+1
+	// 110
+	fmt.Println(^a)     // 按位取反 010 2
+	fmt.Println(a & b)  //按位与 100 4 两边同时相同才会为true
+	fmt.Println(a | b)  //按位或 111 4+2+1 = 7 只要以为为true
+	fmt.Println(a ^ b)  //异或 011 3  //不同为1，相同为0
+	fmt.Println(a &^ b) //1 右侧数字的位上为1，清0，否则不清零
+	fmt.Println(a << 1) //10
+	fmt.Println(a >> 1) //2
+	if num := 10; num == 10 {
+		fmt.Println("OK")
+	}
+
+	var num1 = 1
+	var num2 = 2
+	switch {
+	case num1 > num2:
+		fmt.Println("你好啊！")
+	case num1 < num2:
+		fmt.Println("?111")
+		fallthrough
+	case num1 > num2:
+		fmt.Println("哈哈哈")
+	}
+	rand.Seed(time.Now().UnixNano())
 }
