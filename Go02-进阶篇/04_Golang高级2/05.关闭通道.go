@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main040501() {
+func main04050101() {
 	//通道关闭以后就不在阻塞
 	var c = make(chan int)
 	go func() {

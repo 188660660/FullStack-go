@@ -56,3 +56,43 @@ func main100101() {
 	x, y := <-c, <-c
 	fmt.Println(x, y, x+y)
 }
+
+// 无缓冲和有缓冲
+// 无缓冲 make(chan int)是同步的
+// 有缓冲 make(chan int ,3)是异步的
+
+func sum10(num []int, c chan int) {
+	sum := 0
+	for _, v := range num {
+		sum += v
+	}
+	c <- sum
+	fmt.Println("after channel pro")
+}
+func main() {
+	// 通道不带缓冲 表示是同步的 只能向通道c发送一个数据 只要这个数据没有被接受 那么其他的数据都将会被阻塞
+	s := []int{7, 2, 8, -9, 4, 0}
+	c := make(chan int)
+	fmt.Println("go [0,3]")
+	go sum10(s[:len(s)/2], c)
+	fmt.Println(<-c)
+
+	// 这里开启一个新的运行期线程 这个是需要时间的 本程序继续往下走
+	fmt.Println("go [3,6]")
+	go sum(s[len(s)/2:], c)
+	fmt.Println(<-c)
+
+	fmt.Println("go2 [0,3]")
+	go sum(s[:len(s)/2], c) // c
+	fmt.Println(<-c)
+
+	fmt.Println("go2 [3,6]")
+	go sum(s[len(s)/2:], c) // d
+	fmt.Println(<-c)
+
+	/*
+	   a b c d和main一起争夺cpu的，他们的执行顺序完全无序，甚至里面不同的语句都相互穿插
+	   但无缓冲的等待是同步的，所以接下来a b c d都会执行，一直执行到c <- sum后，开始同步阻塞
+	   因此after channel pro是打印不出来的, 等要打印after channel pro的时候，main就结束了
+	*/
+}

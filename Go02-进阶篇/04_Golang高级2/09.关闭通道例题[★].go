@@ -6,12 +6,15 @@ import (
 )
 
 func say1(str string, c chan int) {
+
 	for i := 1; i <= 5; i++ {
 		time.Sleep(100 * time.Millisecond)
 		fmt.Println(str, "次数：", i, "\t", i*100)
 	}
-	c <- 0
-	//close(c)
+	for i := 0; i < 5; i++ {
+		c <- i
+	}
+	close(c)
 }
 
 func say2(str string) {
@@ -21,11 +24,13 @@ func say2(str string) {
 	}
 }
 
-func main0901() {
-	c := make(chan int)
+func main_X() {
+	c := make(chan int, 5)
 	go say1("hello", c)
 	say2("world")
-
+	for v := range c {
+		fmt.Println(v)
+	}
 }
 
 /*

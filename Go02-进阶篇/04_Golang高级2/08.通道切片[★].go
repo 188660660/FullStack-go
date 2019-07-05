@@ -11,7 +11,7 @@ func setValue(c chan int) {
 	c <- rand.Intn(100)
 }
 
-func main() {
+func main040801() {
 	rand.Seed(time.Now().UnixNano()) //创建随机数种子
 	//var num[5]chan int = [5]chan int{} //声明方法
 	var num []chan int = make([]chan int, 5) //声明方法
